@@ -96,5 +96,13 @@ class UI(PyQt5.QtWidgets.QMainWindow):
             "{:,.2f}".format(movieTitleQuery.vote_average))
         self.centralWidget.statusInformation.infoLabel.setText(
             movieTitleQuery.status)
+
+        # Call openMovie’s analyzeMovie method
+        year, month, day = movieTitleQuery.release_date.split('-')
+        print("{}  {}  {}".format(year, month, day))
+        year = int(year)
+        month = int(month)
+        openMovie.analyzeMovie(year=year, month=month)
+
         print("Exiting UI enterMoviePushButtonClicked method")
         return
