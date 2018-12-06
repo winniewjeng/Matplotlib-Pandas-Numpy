@@ -1449,3 +1449,119 @@
 12/05/2018 09:24:24 PM,INFO,Entering getPoster method
 12/05/2018 09:24:25 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_SX300.jpg, POSTER FILE NAME: Posters/The_Incredibles.jpg
 12/05/2018 09:24:39 PM,INFO,Program Terminated
+12/05/2018 11:20:23 PM,INFO,Program Starting
+12/05/2018 11:20:45 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:20:45 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:20:45 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Pacific+Rim&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:20:45 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Pacific Rim
+12/05/2018 11:20:45 PM,INFO,Entering getAwards method
+12/05/2018 11:20:45 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/05/2018 11:20:46 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1663662/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/05/2018 11:20:46 PM,INFO,Exiting getAward method. AWARD: {}
+12/05/2018 11:20:46 PM,INFO,Entering getPoster method
+12/05/2018 11:20:47 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTY3MTI5NjQ4Nl5BMl5BanBnXkFtZTcwOTU1OTU0OQ@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Pacific_Rim.jpg
+12/05/2018 11:21:10 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:21:10 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:21:11 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Brave&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:21:11 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Brave
+12/05/2018 11:21:11 PM,INFO,Entering getAwards method
+12/05/2018 11:21:11 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/05/2018 11:21:12 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1217209/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/05/2018 11:21:12 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Animated Feature': 'Mark Andrews  Brenda Chapman    Brenda Chapman became the first woman to win an Academy Award for Best Animated Feature Film of the...                More   Brenda Chapman became the first woman to win an Academy Award for Best Animated Feature Film of the Year. '}
+12/05/2018 11:21:12 PM,INFO,Entering getPoster method
+12/05/2018 11:21:12 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMzgwODk3ODA1NF5BMl5BanBnXkFtZTcwNjU3NjQ0Nw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Brave.jpg
+12/05/2018 11:21:23 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:21:23 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:21:23 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:21:23 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/05/2018 11:21:23 PM,INFO,Entering getAwards method
+12/05/2018 11:21:23 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/05/2018 11:21:24 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/05/2018 11:21:24 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/05/2018 11:21:24 PM,INFO,Entering getPoster method
+12/05/2018 11:21:25 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/05/2018 11:21:33 PM,INFO,Program Terminated
+12/05/2018 11:22:43 PM,INFO,Program Starting
+12/05/2018 11:22:48 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:22:48 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:22:48 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:22:48 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/05/2018 11:22:48 PM,INFO,Entering getAwards method
+12/05/2018 11:22:48 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/05/2018 11:22:49 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/05/2018 11:22:49 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/05/2018 11:22:49 PM,INFO,Entering getPoster method
+12/05/2018 11:22:50 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/05/2018 11:22:52 PM,INFO,Program Terminated
+12/05/2018 11:35:37 PM,INFO,Program Starting
+12/05/2018 11:35:44 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:35:44 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:35:44 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:35:44 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/05/2018 11:36:23 PM,INFO,Program Starting
+12/05/2018 11:36:26 PM,INFO,Program Terminated
+12/05/2018 11:36:35 PM,INFO,Program Starting
+12/05/2018 11:36:40 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:36:40 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:36:41 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:36:41 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+12/05/2018 11:37:08 PM,INFO,Program Starting
+12/05/2018 11:37:11 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:37:11 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:37:11 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:37:11 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/05/2018 11:37:38 PM,INFO,Program Starting
+12/05/2018 11:37:42 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:37:42 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:37:42 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:37:42 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+12/05/2018 11:37:42 PM,INFO,Entering getAwards method
+12/05/2018 11:37:42 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/05/2018 11:37:43 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/05/2018 11:37:43 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+12/05/2018 11:37:43 PM,INFO,Entering getPoster method
+12/05/2018 11:37:44 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+12/05/2018 11:38:40 PM,INFO,Program Terminated
+12/05/2018 11:38:44 PM,INFO,Program Starting
+12/05/2018 11:38:47 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:38:47 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:38:48 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:38:48 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+12/05/2018 11:38:48 PM,INFO,Entering getAwards method
+12/05/2018 11:38:48 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/05/2018 11:38:49 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/05/2018 11:38:49 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+12/05/2018 11:38:49 PM,INFO,Entering getPoster method
+12/05/2018 11:38:50 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+12/05/2018 11:39:39 PM,INFO,Program Terminated
+12/05/2018 11:39:41 PM,INFO,Program Starting
+12/05/2018 11:39:46 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:39:46 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:39:47 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:39:47 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+12/05/2018 11:39:47 PM,INFO,Entering getAwards method
+12/05/2018 11:39:47 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/05/2018 11:39:48 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/05/2018 11:39:49 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+12/05/2018 11:39:49 PM,INFO,Entering getPoster method
+12/05/2018 11:39:49 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+12/05/2018 11:39:52 PM,INFO,Program Terminated
+12/05/2018 11:39:54 PM,INFO,Program Starting
+12/05/2018 11:39:57 PM,INFO,Program Terminated
+12/05/2018 11:42:53 PM,INFO,Program Starting
+12/05/2018 11:42:58 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:42:58 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:42:58 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:42:58 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/05/2018 11:43:59 PM,INFO,Program Starting
+12/05/2018 11:44:03 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:44:03 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:44:03 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:44:03 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+12/05/2018 11:44:04 PM,INFO,Entering getAwards method
+12/05/2018 11:44:04 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/05/2018 11:44:05 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/05/2018 11:44:06 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+12/05/2018 11:44:06 PM,INFO,Entering getPoster method
+12/05/2018 11:44:06 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+12/05/2018 11:44:08 PM,INFO,Program Terminated

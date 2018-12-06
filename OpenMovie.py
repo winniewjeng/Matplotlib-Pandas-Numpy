@@ -12,7 +12,7 @@ import ORM
 import bs4
 import requests
 import omdb
-import pandas as db
+import pandas as pd
 import numpy as np
 
 
@@ -279,6 +279,17 @@ class OpenMovie:
             print("No crew or director")
             return False
 
+        months_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+        for month in months_list:
+            startOfMonth = "2009-12-01"
+            endOfMonth = "2010-01-01"
+
+            dateSQL = """select * from public."Movies" where release_date>'{}' and release_date <'{}';""".format(
+                startOfMonth, endOfMonth)
+            monthlyMovieDataFrame = pd.read_sql(dateSQL, ORM.db.raw_connection())
+            print(monthlyMovieDataFrame)  # for testing purpose only
+
         return director, crew
 
     def analyzeMovie(self, year=None, month=None):
@@ -286,4 +297,22 @@ class OpenMovie:
         if year is None or month is None:
             return False
 
-        month_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        months_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+        for month in months_list:
+
+            startOfMonth = "{}-{}-01".format(year, month)
+
+            if month is not 12:
+                month = month + 1
+            else:
+                year = year + 1
+                month = 1
+            endOfMonth = "{}-{}-01".format(year, month)
+
+            dateSQL = """select * from public."Movies" where release_date>'{}' and release_date <'{}';""".format(
+                startOfMonth, endOfMonth)
+            monthlyMovieDataFrame = pd.read_sql(dateSQL, ORM.db.raw_connection())
+            print(monthlyMovieDataFrame)  # for testing purpose only
+
+
