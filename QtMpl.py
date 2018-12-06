@@ -35,3 +35,14 @@ class QtMpl(FigureCanvasQTAgg):
         FigureCanvasQTAgg.updateGeometry(self)
 
     def addLine(self, x=None, revenue=None, budget=None, year=None):
+
+        # clear the plot
+        self.axes.cla()
+
+        self.axes.set_title("Movie Revenue by Month for {}".format(year))
+
+        revenue_bar = self.axes.bar(x=x, height=revenue, color='r', label="Revenue")
+        budget_bar = self.axes.bar(x=x, height=budget, color='b', label="Budget")
+
+        self.axes.legend()
+        self.fig.canvas.draw()

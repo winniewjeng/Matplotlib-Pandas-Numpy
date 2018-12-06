@@ -24,9 +24,18 @@ class UI_CentralWindow(PyQt5.QtWidgets.QDialog):
             "Look Up Movie")
 
         """
-        # Create a mpl instance
-        # self.mpl = QtMpl.QtMpl()
+                # Create a mpl instance
+                # self.mpl = QtMpl.QtMpl(parent)
+                """
+        self.mpl = QtMpl.QtMpl(parent=parent)
         """
+        # add mpl to the bottom of the display
+        # vbox.addLayout(self.mpl)  # ? 7-C
+
+        """
+
+        # Put into layout to view
+        # vbox.addWidget(self.mpl)
 
         # Set up the various HBOX and VBOX
         hboxSearch = PyQt5.QtWidgets.QHBoxLayout()
@@ -107,11 +116,6 @@ class UI_CentralWindow(PyQt5.QtWidgets.QDialog):
 
         vbox.addLayout(hboxSearch)
         vbox.addLayout(hboxInfoAndPoster)
-        """
-        # add mpl to the bottom of the display
-        # vbox.addLayout(self.mpl)  # ? 7-C
-        
-        """
 
         # Put into layout to view
         self.setLayout(vbox)
