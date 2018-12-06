@@ -99,10 +99,9 @@ class UI(PyQt5.QtWidgets.QMainWindow):
 
         # Call openMovie’s analyzeMovie method
         year, month, day = movieTitleQuery.release_date.split('-')
-        print("{}  {}  {}".format(year, month, day))
-        year = int(year)
-        month = int(month)
-        openMovie.analyzeMovie(year=year, month=month)
+        intYear = int(year)
+        intMonth = int(month)
+        openMovie.analyzeMovie(year=intYear, month=intMonth)
 
         print("Exiting UI enterMoviePushButtonClicked method")
         return

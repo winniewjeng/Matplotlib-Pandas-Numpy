@@ -60,10 +60,12 @@ class OpenMovie:
         self.monthlyBudgetMedian = []
         self.monthlyBudgetStd = []
 
+        self.annualRevenue = []
         self.annualRevenueMean = []
         self.annualRevenueMedian = []
         self.annualRevenueStd = []
 
+        self.annualBudget = []
         self.annualBudgetMean  = []
         self.annualBudgetMedian = []
         self.annualBudgetStd  = []
@@ -325,15 +327,27 @@ class OpenMovie:
             monthDateSQL = """select * from public."Movies" where release_date>'{}' and release_date <'{}';""".format(
                 startOfMonth, endOfMonth)
             monthlyMovieDataFrame = pd.read_sql(monthDateSQL, ORM.db.raw_connection())
+
             # print(monthlyMovieDataFrame)  # for testing purpose only
-            self.monthlyBudget.append(sum(monthlyMovieDataFrame['budget']))  # F
-            self.monthlyRevenue.append(sum(monthlyMovieDataFrame['revenue']))  # G
-            self.monthlyRevenueMean.append(np.nanmean(monthlyMovieDataFrame['revenue']))  # H
-            self.monthlyRevenueStd.append(np.nanstd(monthlyMovieDataFrame['revenue']))  # I
-            self.monthlyRevenueMedian.append(np.nanmedian(monthlyMovieDataFrame['revenue']))  # J
-            self.monthlyBudgetMean.append(np.nanmean(monthlyMovieDataFrame['budget']))  # K
-            self.monthlyBudgetMedian.append(np.nanmedian(monthlyMovieDataFrame['budget']))  # L
-            self.monthlyBudgetStd.append(np.nanstd(monthlyMovieDataFrame['budget']))  # M
+            self.monthlyBudget.append(sum(monthlyMovieDataFrame['budget']))
+            try:
+                self.monthlyBudgetMean.append(np.nanmean(monthlyMovieDataFrame['budget']))
+                self.monthlyBudgetMedian.append(np.nanmedian(monthlyMovieDataFrame['budget']))
+                self.monthlyBudgetStd.append(np.nanstd(monthlyMovieDataFrame['budget']))
+            except:
+                self.monthlyBudgetMean.append(0)
+                self.monthlyBudgetMedian.append(0)
+                self.monthlyBudgetStd.append(0)
+
+            self.monthlyRevenue.append(sum(monthlyMovieDataFrame['revenue']))
+            try:
+                self.monthlyRevenueMean.append(np.nanmean(monthlyMovieDataFrame['revenue']))
+                self.monthlyRevenueMedian.append(np.nanmedian(monthlyMovieDataFrame['revenue']))
+                self.monthlyRevenueStd.append(np.nanstd(monthlyMovieDataFrame['revenue']))
+            except:
+                self.monthlyRevenueMean.append(0)
+                self.monthlyRevenueMedian.append(0)
+                self.monthlyRevenueStd.append(0)
 
         # Number-crunch the revenue and budget info of the year
         startOfYear = "{}-01-01".format(year, month)
@@ -341,15 +355,26 @@ class OpenMovie:
         yearDateSQL = """select * from public."Movies" where release_date>'{}' and release_date <'{}';""".format(
             startOfYear, endOfYear)
         annualMovieDataFrame = pd.read_sql(yearDateSQL, ORM.db.raw_connection())
-        self.annualBudget.append(sum(annualMovieDataFrame['budget']))
-        self.annualRevenue.append(sum(annualMovieDataFrame['revenue']))
-        self.annualRevenueMean.append(np.nanmean(annualMovieDataFrame['revenue']))
-        self.annualRevenueStd.append(np.nanstd(annualMovieDataFrame['revenue']))
-        self.annualRevenueMedian.append(np.nanmedian(annualMovieDataFrame['revenue']))
-        self.annualBudgetMean.append(np.nanmean(annualMovieDataFrame['budget']))
-        self.annualBudgetMedian.append(np.nanmedian(annualMovieDataFrame['budget']))
-        self.annualBudgetStd.append(np.nanstd(annualMovieDataFrame['budget']))
 
+        self.annualBudget.append(sum(annualMovieDataFrame['budget']))
+        try:
+            self.annualBudgetMean.append(np.nanmean(annualMovieDataFrame['budget']))
+            self.annualBudgetMedian.append(np.nanmedian(annualMovieDataFrame['budget']))
+            self.annualBudgetStd.append(np.nanstd(annualMovieDataFrame['budget']))
+        except:
+            self.annualBudgetMean.append(0)
+            self.annualBudgetMedian.append(0)
+            self.annualBudgetStd.append
+
+        self.annualRevenue.append(sum(annualMovieDataFrame['revenue']))
+        try:
+            self.annualRevenueMean.append(np.nanmean(annualMovieDataFrame['revenue']))
+            self.annualRevenueMedian.append(np.nanmedian(annualMovieDataFrame['revenue']))
+            self.annualRevenueStd.append(np.nanstd(annualMovieDataFrame['revenue']))
+        except:
+            self.annualRevenueMean.append(0)
+            self.annualRevenueMedian.append(0)
+            self.annualRevenueStd.append(0)
 
 
 
