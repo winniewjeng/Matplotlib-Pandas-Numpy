@@ -4,8 +4,8 @@ This file handles holding the main GUI elements
 
 import PyQt5
 import PyQt5.QtWidgets
-
 import UI_MovieInfo
+import QtMpl
 
 import OpenMovie  # only for testing purpose. comment out later
 
@@ -22,6 +22,11 @@ class UI_CentralWindow(PyQt5.QtWidgets.QDialog):
         self.enterMovieLineEdit = PyQt5.QtWidgets.QLineEdit()
         self.enterMoviePushButton = PyQt5.QtWidgets.QPushButton(
             "Look Up Movie")
+
+        """
+        # Create a mpl instance
+        # self.mpl = QtMpl.QtMpl()
+        """
 
         # Set up the various HBOX and VBOX
         hboxSearch = PyQt5.QtWidgets.QHBoxLayout()
@@ -102,6 +107,11 @@ class UI_CentralWindow(PyQt5.QtWidgets.QDialog):
 
         vbox.addLayout(hboxSearch)
         vbox.addLayout(hboxInfoAndPoster)
+        """
+        # add mpl to the bottom of the display
+        # vbox.addLayout(self.mpl)  # ? 7-C
+        
+        """
 
         # Put into layout to view
         self.setLayout(vbox)
