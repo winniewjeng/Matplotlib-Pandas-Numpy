@@ -1565,3 +1565,140 @@
 12/05/2018 11:44:06 PM,INFO,Entering getPoster method
 12/05/2018 11:44:06 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
 12/05/2018 11:44:08 PM,INFO,Program Terminated
+12/05/2018 11:52:51 PM,INFO,Program Starting
+12/05/2018 11:52:54 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:52:54 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:52:54 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:52:54 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/05/2018 11:52:54 PM,INFO,Entering getAwards method
+12/05/2018 11:52:54 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/05/2018 11:52:55 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/05/2018 11:52:55 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/05/2018 11:52:55 PM,INFO,Entering getPoster method
+12/05/2018 11:52:55 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/05/2018 11:53:34 PM,INFO,Program Terminated
+12/05/2018 11:53:38 PM,INFO,Program Starting
+12/05/2018 11:53:41 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:53:41 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:53:41 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:53:41 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/05/2018 11:53:41 PM,INFO,Entering getAwards method
+12/05/2018 11:53:41 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/05/2018 11:53:43 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/05/2018 11:53:43 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/05/2018 11:53:43 PM,INFO,Entering getPoster method
+12/05/2018 11:53:43 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/05/2018 11:54:11 PM,INFO,Program Terminated
+12/05/2018 11:54:22 PM,INFO,Program Starting
+12/05/2018 11:54:25 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:54:25 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:54:25 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:54:25 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/05/2018 11:54:25 PM,INFO,Entering getAwards method
+12/05/2018 11:54:25 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/05/2018 11:54:26 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/05/2018 11:54:27 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/05/2018 11:54:27 PM,INFO,Entering getPoster method
+12/05/2018 11:54:27 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/05/2018 11:54:51 PM,INFO,Program Terminated
+12/05/2018 11:55:08 PM,INFO,Program Starting
+12/05/2018 11:55:12 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:55:12 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:55:13 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Titanic&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:55:13 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Titanic
+12/05/2018 11:55:13 PM,INFO,Entering getAwards method
+12/05/2018 11:55:13 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/05/2018 11:55:14 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0120338/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/05/2018 11:55:14 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Picture': 'James Cameron  Jon Landau ', 'Best Director': 'James Cameron ', 'Best Cinematography': 'Russell Carpenter ', 'Best Art Direction-Set Decoration': 'Peter Lamont (art director) Michael Ford (set decorator) ', 'Best Costume Design': 'Deborah Lynn Scott ', 'Best Sound': 'Gary Rydstrom Tom Johnson Gary Summers Mark Ulano ', 'Best Film Editing': 'Conrad Buff IV James Cameron Richard A. Harris ', 'Best Effects, Sound Effects Editing': 'Tom Bellfort Christopher Boyes ', 'Best Effects, Visual Effects': 'Robert Legato Mark A. Lasoff Thomas L. Fisher Michael Kanfer ', 'Best Music, Original Song': 'James Horner (music) Will Jennings (lyrics)     For the song "My Heart Will Go On", performed by Céline Dion. ', 'Best Music, Original Dramatic Score': 'James Horner '}
+12/05/2018 11:55:14 PM,INFO,Entering getPoster method
+12/05/2018 11:55:14 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg, POSTER FILE NAME: Posters/Titanic.jpg
+12/05/2018 11:55:23 PM,INFO,Program Terminated
+12/05/2018 11:55:38 PM,INFO,Program Starting
+12/05/2018 11:55:43 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:55:43 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:55:43 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:55:43 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+12/05/2018 11:55:43 PM,INFO,Entering getAwards method
+12/05/2018 11:55:43 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/05/2018 11:55:44 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/05/2018 11:55:45 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+12/05/2018 11:55:45 PM,INFO,Entering getPoster method
+12/05/2018 11:55:45 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+12/05/2018 11:55:51 PM,INFO,Program Terminated
+12/05/2018 11:56:01 PM,INFO,Program Starting
+12/05/2018 11:56:10 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:56:10 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:56:10 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:56:10 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/05/2018 11:56:10 PM,INFO,Entering getAwards method
+12/05/2018 11:56:10 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/05/2018 11:56:11 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/05/2018 11:56:11 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/05/2018 11:56:11 PM,INFO,Entering getPoster method
+12/05/2018 11:56:11 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/05/2018 11:56:15 PM,INFO,Program Terminated
+12/05/2018 11:56:22 PM,INFO,Program Starting
+12/05/2018 11:56:26 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 11:56:26 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 11:56:26 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 11:56:26 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/05/2018 11:56:26 PM,INFO,Entering getAwards method
+12/05/2018 11:56:26 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/05/2018 11:56:27 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/05/2018 11:56:28 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/05/2018 11:56:28 PM,INFO,Entering getPoster method
+12/05/2018 11:56:28 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/05/2018 11:56:36 PM,INFO,Program Terminated
+12/06/2018 12:00:50 AM,INFO,Program Starting
+12/06/2018 12:00:54 AM,INFO,Entering OpenMovie CTOR
+12/06/2018 12:00:54 AM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 12:00:54 AM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 12:00:54 AM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/06/2018 12:02:27 AM,INFO,Program Starting
+12/06/2018 12:02:30 AM,INFO,Entering OpenMovie CTOR
+12/06/2018 12:02:30 AM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 12:02:31 AM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 12:02:31 AM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/06/2018 12:02:31 AM,INFO,Entering getAwards method
+12/06/2018 12:02:31 AM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 12:02:32 AM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 12:02:32 AM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/06/2018 12:02:32 AM,INFO,Entering getPoster method
+12/06/2018 12:02:32 AM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/06/2018 12:02:34 AM,INFO,Program Terminated
+12/06/2018 12:02:57 AM,INFO,Program Starting
+12/06/2018 12:03:01 AM,INFO,Entering OpenMovie CTOR
+12/06/2018 12:03:01 AM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 12:03:01 AM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 12:03:01 AM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/06/2018 12:03:01 AM,INFO,Entering getAwards method
+12/06/2018 12:03:01 AM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 12:03:02 AM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 12:03:03 AM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/06/2018 12:03:03 AM,INFO,Entering getPoster method
+12/06/2018 12:03:03 AM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/06/2018 12:03:05 AM,INFO,Program Terminated
+12/06/2018 12:03:30 AM,INFO,Program Starting
+12/06/2018 12:03:33 AM,INFO,Entering OpenMovie CTOR
+12/06/2018 12:03:33 AM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 12:03:33 AM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 12:03:33 AM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/06/2018 12:03:34 AM,INFO,Entering getAwards method
+12/06/2018 12:03:34 AM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 12:03:34 AM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 12:03:35 AM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/06/2018 12:03:35 AM,INFO,Entering getPoster method
+12/06/2018 12:03:35 AM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/06/2018 12:03:37 AM,INFO,Program Terminated
+12/06/2018 12:05:01 AM,INFO,Program Starting
+12/06/2018 12:05:04 AM,INFO,Entering OpenMovie CTOR
+12/06/2018 12:05:04 AM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 12:05:04 AM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 12:05:04 AM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/06/2018 12:05:04 AM,INFO,Entering getAwards method
+12/06/2018 12:05:04 AM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 12:05:05 AM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 12:05:06 AM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/06/2018 12:05:06 AM,INFO,Entering getPoster method
+12/06/2018 12:05:07 AM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/06/2018 12:05:09 AM,INFO,Program Terminated

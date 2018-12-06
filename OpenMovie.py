@@ -279,16 +279,27 @@ class OpenMovie:
             print("No crew or director")
             return False
 
-        months_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        """
+        Testing testing
+        
+        """
 
-        for month in months_list:
-            startOfMonth = "2009-12-01"
-            endOfMonth = "2010-01-01"
+        startOfMonth = "2009-01-01"
+        endOfMonth = "2009-02-01"
+        dateSQL = """select * from public."Movies" where release_date>'{}' and release_date <'{}';""".format(
+            startOfMonth, endOfMonth)
+        monthlyMovieDataFrame = pd.read_sql(dateSQL, ORM.db.raw_connection())
+        print(monthlyMovieDataFrame)  # for testing purpose only
+        self.monthlyBudget.append(sum(monthlyMovieDataFrame['budget']))
+        print("The monthly budget sum is {}".format(self.monthlyBudget))
+        self.monthlyRevenue.append(monthlyMovieDataFrame['revenue'].sum())
+        print("The monthly rev sum is {}".format(self.monthlyRevenue))
+        self.monthlyRevenueMean.append(np.nanmean(monthlyMovieDataFrame['revenue']))
+        print("The monthly rev mean is {}".format(self.monthlyRevenueMean))
 
-            dateSQL = """select * from public."Movies" where release_date>'{}' and release_date <'{}';""".format(
-                startOfMonth, endOfMonth)
-            monthlyMovieDataFrame = pd.read_sql(dateSQL, ORM.db.raw_connection())
-            print(monthlyMovieDataFrame)  # for testing purpose only
+        """
+        End of testing
+        """
 
         return director, crew
 
@@ -314,5 +325,19 @@ class OpenMovie:
                 startOfMonth, endOfMonth)
             monthlyMovieDataFrame = pd.read_sql(dateSQL, ORM.db.raw_connection())
             print(monthlyMovieDataFrame)  # for testing purpose only
+
+            self.monthlyBudget.append(sum(monthlyMovieDataFrame['budget']))  # F
+            self.monthlyRevenue.append(sum(monthlyMovieDataFrame['revenue']))  # G
+            self.monthlyRevenueMean.append(np.nanmean(monthlyMovieDataFrame['revenue']))  # H
+            self.monthlyRevenueStd.append(np.nanstd(monthlyMovieDataFrame['revenue']))  # I
+            self.monthlyRevenueMedian.append(np.nanmedian(monthlyMovieDataFrame['revenue']))  # J
+            self.monthlyBudgetMean.append(np.nanmean(monthlyMovieDataFrame['budget']))  # K
+            self.monthlyBudgetMedian.append(np.nanmedian(monthlyMovieDataFrame['budget']))  # L
+            self.monthlyBudgetStd.append(np.nanstd(monthlyMovieDataFrame['budget']))  # M
+
+            
+
+
+
 
 
