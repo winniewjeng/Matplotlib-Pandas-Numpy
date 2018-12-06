@@ -12,6 +12,9 @@ import ORM
 import bs4
 import requests
 import omdb
+import pandas as db
+import numpy as np
+
 
 
 class OpenMovie:
@@ -41,6 +44,29 @@ class OpenMovie:
         except:
             logging.error("Could not get {} from omdb".format(title))
             print("Could not get {} from omdb".format(title))
+
+        # adding a bunch of empty lists
+        self.monthlyBudget = []
+        self.monthlyRevenue = []
+        self.monthlyMaxRevenue = []
+        self.monthlyMovieCount = []
+        self.monthlyMovieTitles = []
+
+        self.monthlyRevenueMean = []
+        self.monthlyRevenueMedian = []
+        self.monthlyRevenueStd = []
+
+        self.monthlyBudgetMean = []
+        self.monthlyBudgetMedian = []
+        self.monthlyBudgetStd = []
+
+        self.annualRevenueMean = []
+        self.annualRevenueMedian = []
+        self.annualRevenueStd = []
+
+        self.annualBudgetMean  = []
+        self.annualBudgetMedian = []
+        self.annualBudgetStd  = []
 
         logging.info("Exiting OpenMovie CTOR. MOVIE TITLE: {}".format(self.title))
         return
@@ -254,3 +280,10 @@ class OpenMovie:
             return False
 
         return director, crew
+
+    def analyzeMovie(self, year=None, month=None):
+
+        if year is None or month is None:
+            return False
+
+        month_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]

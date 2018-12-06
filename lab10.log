@@ -1425,3 +1425,27 @@
 12/05/2018 09:12:41 PM,INFO,Entering getPoster method
 12/05/2018 09:12:42 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg, POSTER FILE NAME: Posters/Forrest_Gump.jpg
 12/05/2018 09:12:59 PM,INFO,Program Terminated
+12/05/2018 09:16:34 PM,INFO,Program Starting
+12/05/2018 09:16:44 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 09:16:44 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 09:16:44 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Kung+Fu+Panda&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 09:16:44 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Kung Fu Panda
+12/05/2018 09:16:44 PM,INFO,Entering getAwards method
+12/05/2018 09:16:44 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/05/2018 09:16:45 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0441773/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/05/2018 09:16:45 PM,INFO,Exiting getAward method. AWARD: {}
+12/05/2018 09:16:45 PM,INFO,Entering getPoster method
+12/05/2018 09:16:45 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BODJkZTZhMWItMDI3Yy00ZWZlLTk4NjQtOTI1ZjU5NjBjZTVjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Kung_Fu_Panda.jpg
+12/05/2018 09:16:50 PM,INFO,Program Terminated
+12/05/2018 09:24:11 PM,INFO,Program Starting
+12/05/2018 09:24:23 PM,INFO,Entering OpenMovie CTOR
+12/05/2018 09:24:23 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/05/2018 09:24:23 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=The+Incredibles&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/05/2018 09:24:23 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: The Incredibles
+12/05/2018 09:24:23 PM,INFO,Entering getAwards method
+12/05/2018 09:24:23 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/05/2018 09:24:24 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0317705/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/05/2018 09:24:24 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Sound Editing': 'Michael Silvers  Randy Thom ', 'Best Animated Feature Film of the Year': 'Brad Bird '}
+12/05/2018 09:24:24 PM,INFO,Entering getPoster method
+12/05/2018 09:24:25 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_SX300.jpg, POSTER FILE NAME: Posters/The_Incredibles.jpg
+12/05/2018 09:24:39 PM,INFO,Program Terminated
