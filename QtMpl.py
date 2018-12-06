@@ -34,7 +34,7 @@ class QtMpl(FigureCanvasQTAgg):
         # notify the system of updated policy
         FigureCanvasQTAgg.updateGeometry(self)
 
-    def addLine(self, x=None, revenue=None, budget=None, year=None):
+    def addBars(self, x=None, revenue=None, budget=None, year=None):
 
         # clear the plot
         self.axes.cla()

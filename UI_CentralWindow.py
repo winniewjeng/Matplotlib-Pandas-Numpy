@@ -116,7 +116,7 @@ class UI_CentralWindow(PyQt5.QtWidgets.QDialog):
 
         vbox.addLayout(hboxSearch)
         vbox.addLayout(hboxInfoAndPoster)
-
+        vbox.addWidget(self.mpl)
         # Put into layout to view
         self.setLayout(vbox)
         return
