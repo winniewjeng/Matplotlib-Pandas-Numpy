@@ -99,18 +99,34 @@ class UI(PyQt5.QtWidgets.QMainWindow):
         year, month, day = movieTitleQuery.release_date.split('-')
 
         # return months_list, self.monthlyRevenue, self.annualBudget
-        months_list, revenue, budget = openMovie.analyzeMovie(year=int(year), month=int(month))
-        # print(months_list)
-        # print(revenue)
-        # print(budget)
+        months_list, monthly_revenue, monthly_budget, \
+        monthly_revenue_mean, monthly_revenue_median, monthly_revenue_std, \
+        annual_revenue_mean, annual_revenue_median, annual_revenue_std \
+            = openMovie.analyzeMovie(year=int(year), month=int(month))
 
-        if months_list is False and revenue is False and budget is False:
+        print(annual_revenue_mean[0])
+        print(annual_revenue_mean)
+
+        if months_list is False and monthly_revenue is False and monthly_budget is False:
             self.centralWidget.awardsDisplay.setText("No Plot")
             return
         else:
-            self.centralWidget.updatePlot(x=months_list, revenue=revenue, budget=budget, year=year)
+            self.centralWidget.updatePlot(x=months_list, revenue=monthly_revenue, budget=monthly_budget, year=year)
 
-        # self.centralWidget.monthlyRevenueMean.infoLabel.setText()
+        # self.centralWidget.monthlyRevenueMean.infoLabel.setText(str(round(monthly_revenue_mean[int(month)-1], 2)))
+        self.centralWidget.monthlyRevenueMean.infoLabel.setText\
+            ("${}".format(round(monthly_revenue_mean[int(month)-1], 2)))
+        self.centralWidget.monthlyRevenueMedian.infoLabel.setText \
+            ("${}".format(round(monthly_revenue_median[int(month) - 1], 2)))
+        self.centralWidget.monthlyRevenueStd.infoLabel.setText \
+            ("${}".format(round(monthly_revenue_std[int(month) - 1], 2)))
+        self.centralWidget.annualRevenueMean.infoLabel.setText \
+            ("${}".format(round(annual_revenue_mean[0], 2)))
+        self.centralWidget.annualRevenueMedian.infoLabel.setText \
+            ("${}".format(round(annual_revenue_median[0], 2)))
+        self.centralWidget.annualRevenueStd.infoLabel.setText \
+            ("${}".format(round(annual_revenue_std[0], 2)))
+
 
         print("Exiting UI enterMoviePushButtonClicked method")
         return

@@ -36,7 +36,6 @@ class QtMpl(FigureCanvasQTAgg):
 
 
     def addBars(self, x=None, revenue=None, budget=None, year=None):
-        print("Inside addBars")
         # clear the plot
         self.axes.cla()
 

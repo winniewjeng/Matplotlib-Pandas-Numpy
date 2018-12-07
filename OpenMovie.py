@@ -66,9 +66,9 @@ class OpenMovie:
         self.annualRevenueStd = []
 
         self.annualBudget = []
-        self.annualBudgetMean  = []
+        self.annualBudgetMean = []
         self.annualBudgetMedian = []
-        self.annualBudgetStd  = []
+        self.annualBudgetStd = []
 
         logging.info("Exiting OpenMovie CTOR. MOVIE TITLE: {}".format(self.title))
         return
@@ -310,16 +310,10 @@ class OpenMovie:
         if year is None or month is None:
             return False, False, False
 
-        print(month)
-        print(year)
         months_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
         # Number-crunch the revenue and budget info of the month
         for m in months_list:
-            print("\n")
-            print(m)
-            print(year)
-
             if m < 10:
                 m_str = "0{}".format(m)
             else:
@@ -332,7 +326,6 @@ class OpenMovie:
             else:
                 year = year + 1
                 m = 1
-
             if m < 10:
                 m_str = "0{}".format(m)
             else:
@@ -410,6 +403,6 @@ class OpenMovie:
             self.annualRevenueMedian.append(0)
             self.annualRevenueStd.append(0)
 
-        # print("{} is annual budget".format(self.annualBudget))
-
-        return months_list, self.monthlyRevenue, self.monthlyBudget
+        return months_list, self.monthlyRevenue, self.monthlyBudget, \
+               self.monthlyRevenueMean, self.monthlyRevenueMedian, self.monthlyRevenueStd, \
+               self.annualRevenueMean, self.annualRevenueMedian, self.annualRevenueStd
