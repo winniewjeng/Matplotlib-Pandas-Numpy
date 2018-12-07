@@ -152,8 +152,8 @@ class UI_CentralWindow(PyQt5.QtWidgets.QDialog):
                     self.awardsDisplay.append(str)
         return
 
-    def updatePlot(self, x=None, budget=None, revenue=None, year=None):
+    def updatePlot(self, x=None, revenue=None, budget=None, year=None):
 
-        self.mpl.addBars(x, budget, revenue, year)
+        self.mpl.addBars(x, revenue, budget, year)
 
         return

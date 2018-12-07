@@ -3054,3 +3054,131 @@
 12/06/2018 06:09:56 PM,INFO,Entering getPoster method
 12/06/2018 06:09:56 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
 12/06/2018 06:10:47 PM,INFO,Program Terminated
+12/06/2018 06:11:50 PM,INFO,Program Starting
+12/06/2018 06:11:50 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:11:50 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:11:54 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:11:54 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:11:54 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:11:54 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/06/2018 06:11:54 PM,INFO,Entering getAwards method
+12/06/2018 06:11:54 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:11:55 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:11:56 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/06/2018 06:11:56 PM,INFO,Entering getPoster method
+12/06/2018 06:11:56 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/06/2018 06:14:13 PM,INFO,Program Terminated
+12/06/2018 06:14:17 PM,INFO,Program Starting
+12/06/2018 06:14:18 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:14:18 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:14:21 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:14:21 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:14:21 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:14:21 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/06/2018 06:14:21 PM,INFO,Entering getAwards method
+12/06/2018 06:14:21 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:14:22 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:14:22 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/06/2018 06:14:22 PM,INFO,Entering getPoster method
+12/06/2018 06:14:23 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/06/2018 06:14:53 PM,INFO,Program Starting
+12/06/2018 06:14:54 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:14:54 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:14:58 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:14:58 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:14:59 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:14:59 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/06/2018 06:14:59 PM,INFO,Entering getAwards method
+12/06/2018 06:14:59 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:14:59 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:15:00 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/06/2018 06:15:00 PM,INFO,Entering getPoster method
+12/06/2018 06:15:00 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/06/2018 06:15:38 PM,INFO,Program Terminated
+12/06/2018 06:16:05 PM,INFO,Program Starting
+12/06/2018 06:16:06 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:16:06 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:16:10 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:16:10 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:16:10 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:16:10 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/06/2018 06:16:10 PM,INFO,Entering getAwards method
+12/06/2018 06:16:10 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:16:11 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:16:11 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/06/2018 06:16:11 PM,INFO,Entering getPoster method
+12/06/2018 06:16:11 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/06/2018 06:16:37 PM,INFO,Program Terminated
+12/06/2018 06:17:23 PM,INFO,Program Starting
+12/06/2018 06:17:23 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:17:24 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:17:27 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:17:27 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:17:27 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:17:27 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/06/2018 06:17:27 PM,INFO,Entering getAwards method
+12/06/2018 06:17:27 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:17:28 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:17:28 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/06/2018 06:17:28 PM,INFO,Entering getPoster method
+12/06/2018 06:17:28 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/06/2018 06:17:37 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:17:37 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:17:37 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Emma&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:17:37 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Emma
+12/06/2018 06:17:37 PM,INFO,Entering getAwards method
+12/06/2018 06:17:37 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:17:38 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0116191/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:17:38 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Music, Original Musical or Comedy Score': 'Rachel Portman '}
+12/06/2018 06:17:38 PM,INFO,Entering getPoster method
+12/06/2018 06:17:38 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BN2E1YTUzZDAtODQ2YS00MWNjLWEzMzAtZjgwY2M3ZTcwOTJhXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg, POSTER FILE NAME: Posters/Emma.jpg
+12/06/2018 06:17:49 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:17:49 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:17:49 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:17:49 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/06/2018 06:17:49 PM,INFO,Entering getAwards method
+12/06/2018 06:17:49 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:17:50 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:17:50 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/06/2018 06:17:50 PM,INFO,Entering getPoster method
+12/06/2018 06:17:50 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/06/2018 06:17:58 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:17:58 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:17:58 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Mary+Poppins&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:17:58 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Mary Poppins
+12/06/2018 06:17:58 PM,INFO,Entering getAwards method
+12/06/2018 06:17:58 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:17:59 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0058331/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:17:59 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Actress in a Leading Role': 'Julie Andrews ', 'Best Film Editing': 'Cotton Warburton ', 'Best Effects, Special Visual Effects': 'Peter Ellenshaw Hamilton Luske Eustace Lycett ', 'Best Music, Original Song': 'Richard M. Sherman Robert B. Sherman     For the song "Chim Chim Cher-ee" ', 'Best Music, Substantially Original Score': 'Richard M. Sherman Robert B. Sherman '}
+12/06/2018 06:17:59 PM,INFO,Entering getPoster method
+12/06/2018 06:17:59 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BNmJkODczNjItNDI5Yy00MGI1LTkyOWItZDNmNjM4ZGI1ZDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Mary_Poppins.jpg
+12/06/2018 06:18:24 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:18:24 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:18:24 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=The+Godfather&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:18:24 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: The Godfather
+12/06/2018 06:18:24 PM,INFO,Entering getAwards method
+12/06/2018 06:18:24 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:18:25 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0068646/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:18:25 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Picture': 'Albert S. Ruddy ', 'Best Actor in a Leading Role': 'Marlon Brando     Brando did not attend the ceremony, choosing instead to have himself represented by Sacheen ...                More     Brando did not attend the ceremony, choosing instead to have himself represented by Sacheen Littlefeather (a.k.a. Maria Cruz), a Native American Californian actress. She clarified that Brando respectfully refused the award due to the poor treatment of American Indians in entertainment, as well as the recent Wounded Knee Incident. After several jeers were drowned out by applause, Littlefeather further stated that she hoped she had not intruded and that "our hearts and understandings will meet with love and generosity". ', 'Best Writing, Screenplay Based on Material from Another Medium': 'Mario Puzo Francis Ford Coppola     Mario Puzo was not present at the awards ceremony. His daughter Dorothy Ann Puzo accepted the award...                More     Mario Puzo was not present at the awards ceremony. His daughter Dorothy Ann Puzo accepted the award on his behalf. '}
+12/06/2018 06:18:25 PM,INFO,Entering getPoster method
+12/06/2018 06:18:26 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg, POSTER FILE NAME: Posters/The_Godfather.jpg
+12/06/2018 06:19:18 PM,INFO,Program Terminated
+12/06/2018 06:19:22 PM,INFO,Program Starting
+12/06/2018 06:19:22 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:19:22 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:19:27 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:19:27 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:19:27 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Blade+Runners&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 47
+12/06/2018 06:19:27 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Blade Runners
+12/06/2018 06:19:27 PM,ERROR,Movie Not in Database Blade Runners
+12/06/2018 06:19:30 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:19:30 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:19:30 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Blade+Runner&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:19:30 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Blade Runner
+12/06/2018 06:19:30 PM,INFO,Entering getAwards method
+12/06/2018 06:19:30 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:19:30 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0083658/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:19:30 PM,INFO,Exiting getAward method. AWARD: {}
+12/06/2018 06:19:30 PM,INFO,Entering getPoster method
+12/06/2018 06:19:31 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg, POSTER FILE NAME: Posters/Blade_Runner.jpg
+12/06/2018 06:19:49 PM,INFO,Program Terminated

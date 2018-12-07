@@ -77,7 +77,7 @@ class OpenMovie:
         """
         Destructor
         """
-        print("Destructor Called")
+        # print("Destructor Called")
         return
 
     def getPoster(self):
@@ -410,15 +410,6 @@ class OpenMovie:
             self.annualRevenueMedian.append(0)
             self.annualRevenueStd.append(0)
 
-        # print("\n")
-        # print("year is {}".format(year))
-        # print("\n")
-        # print("monthly Budget: {}".format(self.monthlyBudget))
-        # print("\n")
-        # print("monthly Revenue: {}".format(self.monthlyRevenue))
-        # print("\n")
-        # print("annual Budget: {}".format(self.annualBudget))
-        # print("\n")
-        # print("annual Revenue: {}".format(self.annualRevenue))
+        # print("{} is annual budget".format(self.annualBudget))
 
         return months_list, self.monthlyRevenue, self.monthlyBudget

@@ -100,9 +100,9 @@ class UI(PyQt5.QtWidgets.QMainWindow):
 
         # return months_list, self.monthlyRevenue, self.annualBudget
         months_list, revenue, budget = openMovie.analyzeMovie(year=int(year), month=int(month))
-        print(months_list)
-        print(revenue)
-        print(budget)
+        # print(months_list)
+        # print(revenue)
+        # print(budget)
 
         if months_list is False and revenue is False and budget is False:
             self.centralWidget.awardsDisplay.setText("No Plot")
