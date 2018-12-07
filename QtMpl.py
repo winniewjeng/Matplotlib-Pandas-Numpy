@@ -42,8 +42,10 @@ class QtMpl(FigureCanvasQTAgg):
 
         self.axes.set_title("Movie Revenue by Month for {}".format(year))
 
-        budget_bar = self.axes.bar(x=x, height=budget, color='b', label="Budget")
-        revenue_bar = self.axes.bar(x=x, height=revenue, color='r', label="Revenue")
+        self.axes.set_ylabel("Money")  # need to reset it so it appears on screen
+
+        budget_bar = self.axes.bar(x=x, height=budget, color='#eedb71', label="Budget")
+        revenue_bar = self.axes.bar(x=x, height=revenue, color='#67b6ea', label="Revenue")
 
         self.axes.legend()
         self.fig.canvas.draw()

@@ -2893,3 +2893,164 @@
 12/06/2018 05:53:24 PM,INFO,Entering getPoster method
 12/06/2018 05:53:25 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMzgwODk3ODA1NF5BMl5BanBnXkFtZTcwNjU3NjQ0Nw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Brave.jpg
 12/06/2018 05:54:07 PM,INFO,Program Terminated
+12/06/2018 05:55:21 PM,INFO,Program Starting
+12/06/2018 05:55:22 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 05:55:22 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 05:55:26 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 05:55:26 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 05:55:26 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Brave&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 05:55:26 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Brave
+12/06/2018 05:55:26 PM,INFO,Entering getAwards method
+12/06/2018 05:55:26 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 05:55:27 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1217209/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 05:55:28 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Animated Feature': 'Mark Andrews  Brenda Chapman    Brenda Chapman became the first woman to win an Academy Award for Best Animated Feature Film of the...                More   Brenda Chapman became the first woman to win an Academy Award for Best Animated Feature Film of the Year. '}
+12/06/2018 05:55:28 PM,INFO,Entering getPoster method
+12/06/2018 05:55:28 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMzgwODk3ODA1NF5BMl5BanBnXkFtZTcwNjU3NjQ0Nw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Brave.jpg
+12/06/2018 05:55:52 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 05:55:52 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 05:55:52 PM,DEBUG,http://www.omdbapi.com:80 "GET /?page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 05:55:52 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: 
+12/06/2018 05:55:52 PM,ERROR,Movie Not in Database 
+12/06/2018 05:55:56 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 05:55:56 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 05:55:56 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 05:55:56 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/06/2018 05:55:56 PM,INFO,Entering getAwards method
+12/06/2018 05:55:56 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 05:55:57 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 05:55:57 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/06/2018 05:55:57 PM,INFO,Entering getPoster method
+12/06/2018 05:55:57 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/06/2018 05:56:10 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 05:56:10 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 05:56:11 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 05:56:11 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+12/06/2018 05:56:11 PM,INFO,Entering getAwards method
+12/06/2018 05:56:11 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 05:56:12 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 05:56:12 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+12/06/2018 05:56:12 PM,INFO,Entering getPoster method
+12/06/2018 05:56:12 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+12/06/2018 06:02:14 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:02:14 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:02:14 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:02:14 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/06/2018 06:02:14 PM,INFO,Entering getAwards method
+12/06/2018 06:02:14 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:02:15 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:02:15 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/06/2018 06:02:15 PM,INFO,Entering getPoster method
+12/06/2018 06:02:16 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/06/2018 06:02:16 PM,INFO,Program Terminated
+12/06/2018 06:02:24 PM,INFO,Program Starting
+12/06/2018 06:02:25 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:02:25 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:02:28 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:02:28 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:02:28 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Brave&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:02:28 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Brave
+12/06/2018 06:02:28 PM,INFO,Entering getAwards method
+12/06/2018 06:02:28 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:02:29 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1217209/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:02:29 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Animated Feature': 'Mark Andrews  Brenda Chapman    Brenda Chapman became the first woman to win an Academy Award for Best Animated Feature Film of the...                More   Brenda Chapman became the first woman to win an Academy Award for Best Animated Feature Film of the Year. '}
+12/06/2018 06:02:29 PM,INFO,Entering getPoster method
+12/06/2018 06:02:29 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMzgwODk3ODA1NF5BMl5BanBnXkFtZTcwNjU3NjQ0Nw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Brave.jpg
+12/06/2018 06:03:29 PM,INFO,Program Terminated
+12/06/2018 06:03:33 PM,INFO,Program Starting
+12/06/2018 06:03:33 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:03:33 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:03:38 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:03:38 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:03:38 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Brave&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:03:38 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Brave
+12/06/2018 06:03:38 PM,INFO,Entering getAwards method
+12/06/2018 06:03:38 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:03:38 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1217209/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:03:38 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Animated Feature': 'Mark Andrews  Brenda Chapman    Brenda Chapman became the first woman to win an Academy Award for Best Animated Feature Film of the...                More   Brenda Chapman became the first woman to win an Academy Award for Best Animated Feature Film of the Year. '}
+12/06/2018 06:03:38 PM,INFO,Entering getPoster method
+12/06/2018 06:03:39 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMzgwODk3ODA1NF5BMl5BanBnXkFtZTcwNjU3NjQ0Nw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Brave.jpg
+12/06/2018 06:04:02 PM,INFO,Program Terminated
+12/06/2018 06:04:06 PM,INFO,Program Starting
+12/06/2018 06:04:07 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:04:07 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:04:09 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:04:09 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:04:09 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Brave&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:04:09 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Brave
+12/06/2018 06:04:09 PM,INFO,Entering getAwards method
+12/06/2018 06:04:09 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:04:10 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1217209/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:04:10 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Animated Feature': 'Mark Andrews  Brenda Chapman    Brenda Chapman became the first woman to win an Academy Award for Best Animated Feature Film of the...                More   Brenda Chapman became the first woman to win an Academy Award for Best Animated Feature Film of the Year. '}
+12/06/2018 06:04:10 PM,INFO,Entering getPoster method
+12/06/2018 06:04:10 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMzgwODk3ODA1NF5BMl5BanBnXkFtZTcwNjU3NjQ0Nw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Brave.jpg
+12/06/2018 06:04:38 PM,INFO,Program Terminated
+12/06/2018 06:04:52 PM,INFO,Program Starting
+12/06/2018 06:04:53 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:04:53 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:04:55 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:04:55 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:04:55 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Brave&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:04:55 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Brave
+12/06/2018 06:04:55 PM,INFO,Entering getAwards method
+12/06/2018 06:04:56 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:04:56 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1217209/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:04:56 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Animated Feature': 'Mark Andrews  Brenda Chapman    Brenda Chapman became the first woman to win an Academy Award for Best Animated Feature Film of the...                More   Brenda Chapman became the first woman to win an Academy Award for Best Animated Feature Film of the Year. '}
+12/06/2018 06:04:56 PM,INFO,Entering getPoster method
+12/06/2018 06:04:57 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMzgwODk3ODA1NF5BMl5BanBnXkFtZTcwNjU3NjQ0Nw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Brave.jpg
+12/06/2018 06:05:05 PM,INFO,Program Terminated
+12/06/2018 06:05:08 PM,INFO,Program Starting
+12/06/2018 06:05:08 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:05:08 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:05:12 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:05:12 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:05:12 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Forrest+Gump&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:05:12 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Forrest Gump
+12/06/2018 06:05:12 PM,INFO,Entering getAwards method
+12/06/2018 06:05:12 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:05:13 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0109830/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:05:13 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Picture': 'Wendy Finerman  Steve Starkey  Steve Tisch ', 'Best Actor in a Leading Role': 'Tom Hanks ', 'Best Director': 'Robert Zemeckis ', 'Best Writing, Screenplay Based on Material Previously Produced or Published': 'Eric Roth ', 'Best Film Editing': 'Arthur Schmidt ', 'Best Effects, Visual Effects': 'Ken Ralston George Murphy Stephen Rosenbaum Allen Hall '}
+12/06/2018 06:05:13 PM,INFO,Entering getPoster method
+12/06/2018 06:05:14 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg, POSTER FILE NAME: Posters/Forrest_Gump.jpg
+12/06/2018 06:05:22 PM,INFO,Program Terminated
+12/06/2018 06:05:28 PM,INFO,Program Starting
+12/06/2018 06:05:29 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:05:29 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:05:37 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:05:37 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:05:37 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:05:37 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+12/06/2018 06:05:37 PM,INFO,Entering getAwards method
+12/06/2018 06:05:37 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:05:38 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:05:39 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+12/06/2018 06:05:39 PM,INFO,Entering getPoster method
+12/06/2018 06:05:39 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+12/06/2018 06:06:04 PM,INFO,Program Terminated
+12/06/2018 06:08:47 PM,INFO,Program Starting
+12/06/2018 06:08:47 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:08:47 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:08:51 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:08:51 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:08:51 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Up&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:08:51 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Up
+12/06/2018 06:08:51 PM,INFO,Entering getAwards method
+12/06/2018 06:08:51 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:08:52 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt1049413/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:08:52 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Music Written for Motion Pictures, Original Score': 'Michael Giacchino ', 'Best Animated Feature Film of the Year': 'Pete Docter '}
+12/06/2018 06:08:52 PM,INFO,Entering getPoster method
+12/06/2018 06:08:52 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg, POSTER FILE NAME: Posters/Up.jpg
+12/06/2018 06:09:47 PM,INFO,Program Terminated
+12/06/2018 06:09:51 PM,INFO,Program Starting
+12/06/2018 06:09:52 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:09:52 PM,DEBUG,findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+12/06/2018 06:09:55 PM,INFO,Entering OpenMovie CTOR
+12/06/2018 06:09:55 PM,DEBUG,Starting new HTTP connection (1): www.omdbapi.com
+12/06/2018 06:09:55 PM,DEBUG,http://www.omdbapi.com:80 "GET /?t=Avatar&page=1&plot=short&tomatoes=False&apikey=e1e3bf24 HTTP/1.1" 200 None
+12/06/2018 06:09:55 PM,INFO,Exiting OpenMovie CTOR. MOVIE TITLE: Avatar
+12/06/2018 06:09:55 PM,INFO,Entering getAwards method
+12/06/2018 06:09:55 PM,DEBUG,Starting new HTTPS connection (1): www.imdb.com
+12/06/2018 06:09:56 PM,DEBUG,https://www.imdb.com:443 "GET /title/tt0499549/awards?ref%20=tt%20awd HTTP/1.1" 200 None
+12/06/2018 06:09:56 PM,INFO,Exiting getAward method. AWARD: {'Winner': 'Oscar ', 'Best Achievement in Cinematography': 'Mauro Fiore ', 'Best Achievement in Visual Effects': 'Joe Letteri Stephen Rosenbaum Richard Baneham Andrew R. Jones ', 'Best Achievement in Art Direction': 'Rick Carter (production designer) Robert Stromberg (production designer) Kim Sinclair (set decorator) '}
+12/06/2018 06:09:56 PM,INFO,Entering getPoster method
+12/06/2018 06:09:56 PM,INFO,Exiting getPoster method. URL: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg, POSTER FILE NAME: Posters/Avatar.jpg
+12/06/2018 06:10:47 PM,INFO,Program Terminated
