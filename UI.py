@@ -16,7 +16,7 @@ class UI(PyQt5.QtWidgets.QMainWindow):
     """
 
     def __init__(self, parent=None):
-        print("Entering UI CTOR")
+
         super(UI, self).__init__(parent)
 
         # Create Main Window Elements
@@ -32,13 +32,11 @@ class UI(PyQt5.QtWidgets.QMainWindow):
             self.enterMoviePushButtonClicked)
         # Display
         self.show()
-        print("Exiting UI CTOR")
 
     def enterMoviePushButtonClicked(self):
         """
         Callback function for the enterMoviePushButton button object is clicked
         """
-        print("Entering UI enterMoviePushButtonClicked method")
         # Read the movie title from the GUI.  This is UNSAFE data.  Never trust a USER!
         movieTitle = self.centralWidget.enterMovieLineEdit.text()
 
@@ -104,16 +102,13 @@ class UI(PyQt5.QtWidgets.QMainWindow):
         annual_revenue_mean, annual_revenue_median, annual_revenue_std \
             = openMovie.analyzeMovie(year=int(year), month=int(month))
 
-        print(annual_revenue_mean[0])
-        print(annual_revenue_mean)
-
         if months_list is False and monthly_revenue is False and monthly_budget is False:
             self.centralWidget.awardsDisplay.setText("No Plot")
             return
         else:
             self.centralWidget.updatePlot(x=months_list, revenue=monthly_revenue, budget=monthly_budget, year=year)
 
-        # self.centralWidget.monthlyRevenueMean.infoLabel.setText(str(round(monthly_revenue_mean[int(month)-1], 2)))
+        #  update display information
         self.centralWidget.monthlyRevenueMean.infoLabel.setText\
             ("${}".format(round(monthly_revenue_mean[int(month)-1], 2)))
         self.centralWidget.monthlyRevenueMedian.infoLabel.setText \
@@ -127,6 +122,4 @@ class UI(PyQt5.QtWidgets.QMainWindow):
         self.centralWidget.annualRevenueStd.infoLabel.setText \
             ("${}".format(round(annual_revenue_std[0], 2)))
 
-
-        print("Exiting UI enterMoviePushButtonClicked method")
         return

@@ -281,31 +281,13 @@ class OpenMovie:
             print("No crew or director")
             return False
 
-        """
-        Testing testing
-        
-        """
-        #
-        # startOfMonth = "2009-04-01"
-        # endOfMonth = "2009-07-01"
-        # dateSQL = """select * from public."Movies" where release_date>'{}' and release_date <'{}';""".format(
-        #     startOfMonth, endOfMonth)
-        # monthlyMovieDataFrame = pd.read_sql(dateSQL, ORM.db.raw_connection())
-        # print(monthlyMovieDataFrame)  # for testing purpose only
-        # self.monthlyBudget.append(sum(monthlyMovieDataFrame['budget']))
-        # print("The monthly budget sum is {}".format(self.monthlyBudget))
-        # self.monthlyRevenue.append(monthlyMovieDataFrame['revenue'].sum())
-        # print("The monthly rev sum is {}".format(self.monthlyRevenue))
-        # self.monthlyRevenueMean.append(np.nanmean(monthlyMovieDataFrame['revenue']))
-        # print("The monthly rev mean is {}".format(self.monthlyRevenueMean))
-
-        """
-        End of testing
-        """
 
         return director, crew
 
     def analyzeMovie(self, year=None, month=None):
+        """
+        Get the movie budget & revenue information from database then do some number-crunching
+        """
 
         if year is None or month is None:
             return False, False, False

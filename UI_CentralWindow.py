@@ -153,7 +153,9 @@ class UI_CentralWindow(PyQt5.QtWidgets.QDialog):
         return
 
     def updatePlot(self, x=None, revenue=None, budget=None, year=None):
-
+        """
+        Call addBars
+        """
         self.mpl.addBars(x, revenue, budget, year)
 
         return
