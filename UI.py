@@ -3,14 +3,9 @@ This is the top level UI for the Python Movies Project
 At this level we instantiate the Central Window which has the
 GUI elements.  This is also the level of handling signal/slot connections.
 """
-import datetime
 import logging
 import traceback
-
-import PyQt5
 import PyQt5.QtWidgets
-import sqlalchemy
-
 import OpenMovie
 import UI_CentralWindow
 
@@ -79,6 +74,8 @@ class UI(PyQt5.QtWidgets.QMainWindow):
 
         self.statusBar().showMessage("Done Getting Poster")
 
+        # update the UI_CentralWindow with nanmean info and plot info
+
         # Update the GUI
         self.centralWidget.directorInformation.infoLabel.setText(director)
         self.centralWidget.actorInformation.infoLabel.setText(cast[0]['name'])
@@ -98,8 +95,22 @@ class UI(PyQt5.QtWidgets.QMainWindow):
             movieTitleQuery.status)
 
         # Call openMovie’s analyzeMovie method
+        print("call openMovie's analyzeMovie method")
         year, month, day = movieTitleQuery.release_date.split('-')
-        openMovie.analyzeMovie(year=int(year), month=int(month))
+
+        # return months_list, self.monthlyRevenue, self.annualBudget
+        months_list, revenue, budget = openMovie.analyzeMovie(year=int(year), month=int(month))
+        print(months_list)
+        print(revenue)
+        print(budget)
+
+        if months_list is False and revenue is False and budget is False:
+            self.centralWidget.awardsDisplay.setText("No Plot")
+            return
+        else:
+            self.centralWidget.updatePlot(x=months_list, revenue=revenue, budget=budget, year=year)
+
+        # self.centralWidget.monthlyRevenueMean.infoLabel.setText()
 
         print("Exiting UI enterMoviePushButtonClicked method")
         return

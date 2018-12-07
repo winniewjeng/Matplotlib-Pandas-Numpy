@@ -34,15 +34,16 @@ class QtMpl(FigureCanvasQTAgg):
         # notify the system of updated policy
         FigureCanvasQTAgg.updateGeometry(self)
 
-    def addBars(self, x=None, revenue=None, budget=None, year=None):
 
+    def addBars(self, x=None, revenue=None, budget=None, year=None):
+        print("Inside addBars")
         # clear the plot
         self.axes.cla()
 
         self.axes.set_title("Movie Revenue by Month for {}".format(year))
 
-        revenue_bar = self.axes.bar(x=x, height=revenue, color='r', label="Revenue")
         budget_bar = self.axes.bar(x=x, height=budget, color='b', label="Budget")
+        revenue_bar = self.axes.bar(x=x, height=revenue, color='r', label="Revenue")
 
         self.axes.legend()
         self.fig.canvas.draw()

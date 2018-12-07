@@ -14,7 +14,7 @@ import requests
 import omdb
 import pandas as pd
 import numpy as np
-
+# import QtMpl
 
 
 class OpenMovie:
@@ -285,9 +285,9 @@ class OpenMovie:
         Testing testing
         
         """
-
-        # startOfMonth = "2009-01-01"
-        # endOfMonth = "2009-02-01"
+        #
+        # startOfMonth = "2009-04-01"
+        # endOfMonth = "2009-07-01"
         # dateSQL = """select * from public."Movies" where release_date>'{}' and release_date <'{}';""".format(
         #     startOfMonth, endOfMonth)
         # monthlyMovieDataFrame = pd.read_sql(dateSQL, ORM.db.raw_connection())
@@ -308,46 +308,80 @@ class OpenMovie:
     def analyzeMovie(self, year=None, month=None):
 
         if year is None or month is None:
-            return False
+            return False, False, False
 
+        print(month)
+        print(year)
         months_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
         # Number-crunch the revenue and budget info of the month
-        for month in months_list:
+        for m in months_list:
+            print("\n")
+            print(m)
+            print(year)
 
-            startOfMonth = "{}-{}-01".format(year, month)
+            if m < 10:
+                m_str = "0{}".format(m)
+            else:
+                m_str = str(m)
 
-            if month is not 12:
-                month = month + 1
+            startOfMonth = "{}-{}-01".format(year, m_str)
+
+            if m is not 12:
+                m = m + 1
             else:
                 year = year + 1
-                month = 1
-            endOfMonth = "{}-{}-01".format(year, month)
+                m = 1
+
+            if m < 10:
+                m_str = "0{}".format(m)
+            else:
+                m_str = str(m)
+
+            endOfMonth = "{}-{}-01".format(year, m_str)
+
+            # print(startOfMonth)
+            # print(endOfMonth)
+
             # SQL query string gets all movies from between these 2 release dates
             monthDateSQL = """select * from public."Movies" where release_date>'{}' and release_date <'{}';""".format(
                 startOfMonth, endOfMonth)
             monthlyMovieDataFrame = pd.read_sql(monthDateSQL, ORM.db.raw_connection())
-
             # print(monthlyMovieDataFrame)  # for testing purpose only
-            self.monthlyBudget.append(sum(monthlyMovieDataFrame['budget']))
+
+            self.monthlyBudget.append(monthlyMovieDataFrame['budget'].sum())
             try:
                 self.monthlyBudgetMean.append(np.nanmean(monthlyMovieDataFrame['budget']))
-                self.monthlyBudgetMedian.append(np.nanmedian(monthlyMovieDataFrame['budget']))
-                self.monthlyBudgetStd.append(np.nanstd(monthlyMovieDataFrame['budget']))
             except:
                 self.monthlyBudgetMean.append(0)
+            try:
+                self.monthlyBudgetMedian.append(np.nanmedian(monthlyMovieDataFrame['budget']))
+            except:
                 self.monthlyBudgetMedian.append(0)
+            try:
+                self.monthlyBudgetStd.append(np.nanstd(monthlyMovieDataFrame['budget']))
+            except:
                 self.monthlyBudgetStd.append(0)
 
-            self.monthlyRevenue.append(sum(monthlyMovieDataFrame['revenue']))
+            # print("\n{}\n{}\n{}\n{}".format(
+            #     self.monthlyBudget, self.monthlyBudgetMean, self.monthlyBudgetMedian, self.monthlyBudgetStd))
+
+            self.monthlyRevenue.append(monthlyMovieDataFrame['revenue'].sum())
             try:
                 self.monthlyRevenueMean.append(np.nanmean(monthlyMovieDataFrame['revenue']))
-                self.monthlyRevenueMedian.append(np.nanmedian(monthlyMovieDataFrame['revenue']))
-                self.monthlyRevenueStd.append(np.nanstd(monthlyMovieDataFrame['revenue']))
             except:
                 self.monthlyRevenueMean.append(0)
+            try:
+                self.monthlyRevenueMedian.append(np.nanmedian(monthlyMovieDataFrame['revenue']))
+            except:
                 self.monthlyRevenueMedian.append(0)
+            try:
+                self.monthlyRevenueStd.append(np.nanstd(monthlyMovieDataFrame['revenue']))
+            except:
                 self.monthlyRevenueStd.append(0)
+
+            # print("\n{}\n{}\n{}\n{}".format(
+            #     self.monthlyRevenue, self.monthlyRevenueMean, self.monthlyRevenueMedian, self.monthlyRevenueStd))
 
         # Number-crunch the revenue and budget info of the year
         startOfYear = "{}-01-01".format(year, month)
@@ -364,7 +398,7 @@ class OpenMovie:
         except:
             self.annualBudgetMean.append(0)
             self.annualBudgetMedian.append(0)
-            self.annualBudgetStd.append
+            self.annualBudgetStd.append(0)
 
         self.annualRevenue.append(sum(annualMovieDataFrame['revenue']))
         try:
@@ -376,7 +410,15 @@ class OpenMovie:
             self.annualRevenueMedian.append(0)
             self.annualRevenueStd.append(0)
 
+        # print("\n")
+        # print("year is {}".format(year))
+        # print("\n")
+        # print("monthly Budget: {}".format(self.monthlyBudget))
+        # print("\n")
+        # print("monthly Revenue: {}".format(self.monthlyRevenue))
+        # print("\n")
+        # print("annual Budget: {}".format(self.annualBudget))
+        # print("\n")
+        # print("annual Revenue: {}".format(self.annualRevenue))
 
-
-
-
+        return months_list, self.monthlyRevenue, self.monthlyBudget

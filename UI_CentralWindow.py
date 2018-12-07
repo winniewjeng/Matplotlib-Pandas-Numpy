@@ -7,7 +7,6 @@ import PyQt5.QtWidgets
 import UI_MovieInfo
 import QtMpl
 
-import OpenMovie  # only for testing purpose. comment out later
 
 class UI_CentralWindow(PyQt5.QtWidgets.QDialog):
     """
@@ -28,6 +27,7 @@ class UI_CentralWindow(PyQt5.QtWidgets.QDialog):
                 # self.mpl = QtMpl.QtMpl(parent)
                 """
         self.mpl = QtMpl.QtMpl(parent=parent)
+
         """
         # add mpl to the bottom of the display
         # vbox.addLayout(self.mpl)  # ? 7-C
@@ -117,6 +117,7 @@ class UI_CentralWindow(PyQt5.QtWidgets.QDialog):
         vbox.addLayout(hboxSearch)
         vbox.addLayout(hboxInfoAndPoster)
         vbox.addWidget(self.mpl)
+
         # Put into layout to view
         self.setLayout(vbox)
         return
@@ -149,4 +150,10 @@ class UI_CentralWindow(PyQt5.QtWidgets.QDialog):
                     str = "Category: {} Winner(s): {}".format(category, winners)
                     # print(str)
                     self.awardsDisplay.append(str)
+        return
+
+    def updatePlot(self, x=None, budget=None, revenue=None, year=None):
+
+        self.mpl.addBars(x, budget, revenue, year)
+
         return
